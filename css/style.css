@@ -1,0 +1,233 @@
+*{
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+:root{
+    --green: #00BF85;
+}
+.padding{
+    padding: 5rem 0;
+}
+.heading{
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+/* navbar strt  */
+#navbar{
+    background: #131313;
+}
+#navbar .logo{
+    width: 8rem;
+}
+#navbar .navbar-brand{
+    font-family: cursive;
+}
+.main-btn{
+    background: transparent;
+    border: .1rem solid var(--green);
+    color: #fff;
+    border-radius: 5rem;
+}
+.main-btn:hover{
+    background: var(--green);
+}
+.nav-item .nav-link{
+    color: #fff !important;
+    padding: .5rem 1.5rem !important;
+    margin: 0 .5rem;
+}
+.nav-item .nav-link:hover,
+.nav-item .nav-link.active{
+    box-shadow: 0 .5rem 3rem -.8rem var(--green);
+    background: var(--green);
+}
+/* navbar ends */
+
+/* home :start */
+#home{
+    min-height: 95vh;
+    position: relative;
+    overflow: hidden;
+}
+#home video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    user-select: none;
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-content h1{
+    font-family: cursive;
+}
+.navbar-nav li a{
+    font-size: 1.2rem;
+}
+/* home :ends */
+
+/* social icons :start */
+.social{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    z-index: 500;
+}
+.social a{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    background: #000;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: .3rem;
+}
+.social a:hover{
+    background: var(--green);
+}
+/* social icons :ends */
+
+/* about :start */
+#about{
+    background: #000;
+}
+#about .title{
+    color: var(--green);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+#about h2{
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    color: #fff;
+}
+#about p{
+    color: #fff;
+}
+/* about :ends */
+
+/* discover :start */
+#discover img{
+    width: 100%;
+}
+#discover .title{
+    color: var(--green);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+#discover h2{
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    color: #000;
+    font-weight: 700;
+}
+#discover p{
+    color: #000;
+}
+#discover .main-btn{
+    color: #111;
+}
+/* discover :ends */
+
+/* service :start */
+#service{
+    background: #000;
+}
+#service .card img{
+    width: 13rem;
+}
+#service .card-subtitle{
+    font-size: 1.3rem;
+}
+/* service :ends */
+
+/* contact :start */
+#contact img{
+    width: 100%;
+}
+#contact .title{
+    color: var(--green);
+    font-weight: 800;
+}
+#contact .contact-content{
+    padding-top: 5rem;
+}
+#contact .main-btn{
+    background: #000;
+    color: #fff;
+    border: .1rem solid rgba(0, 0, 0, .8);
+}
+#contact .main-btn:hover{
+    background: transparent;
+    color: #000;
+    border: .1rem solid rgba(0, 0, 0, .8);
+}
+/* contact :ends */
+
+/* footer :start */
+#footer{
+    background: #000;
+}
+#footer a{
+    display: block;
+}
+/* footer :ends */
+
+/* media query strt */
+@media (max-width:990px) {
+    .nav-item .nav-link{
+        padding: .3rem .7rem !important;
+        margin: 0;
+    }
+}
+@media (max-width:768px) {
+    .nav-item .nav-link{
+        margin: .5rem .5rem;
+    }
+}
+@media (max-width:576px) {
+    .padding{
+        padding: 3rem;
+    }
+    #home .home-content{
+        text-align: center;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .discover-content{
+        text-align: center;
+    }
+    .contact-content{
+        text-align: center;
+    }
+}
+@media (max-width:350px){
+    #footer{
+        text-align: center;
+    }
+}
+/* media query ends */

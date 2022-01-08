@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 2 website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#toggle-navbar" data-offset="50">
+    <!-- navigation strt -->
+    <nav class="navbar nav navbar-expand-md navbar-dark sticky-top justify-content-between px-5 py-3" id="navbar">
+        <a href="#" class="navbar-brand font-weight-bold">
+            <img src="img/demo-logo.png" class="logo" alt="logoImg">
+        </a>
+        <div class="navbar-toggler" data-toggle="collapse" data-target="#toggle-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </div>
+        <ul class="navbar-nav collapse navbar-collapse justify-content-center" id="toggle-navbar">
+            <li class="nav-item">
+                <a href="#home" class="nav-link active">home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+                <a href="#discover" class="nav-link">discover</a>
+            </li>
+            <li class="nav-item">
+                <a href="#service" class="nav-link">services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">sign up</a>
+            </li>
+        </ul>
+
+        <a href="#" class="main-btn text-decoration-none py-2 px-4 d-none d-md-block">sign in</a>
+
+    </nav>
+    
+    <!-- navigation ends -->
+
+    <!-- home strt -->
+    <section id="home">
+        <video autoplay muted loop>
+            <source class="embed-responsive" src="video/1.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 px-5 home-content text-center text-light">
+                    <h1 class="font-weight-bold">virtual banking made easy</h1>
+                    <p class="lead py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Cupiditate blanditiis delectus natus! Commodi, beatae. Animi
+                        natus iure veniam esse, iusto ea alias minima soluta.</p>
+                    <a href="#" class="btn main-btn px-4">get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home ends -->
+
+    <!-- social media share icon strt -->
+    <div class="social">
+        <a href="#"data-toggle="tooltip" title="Facebook" data-placement="right"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"data-toggle="tooltip" title="Instagram" data-placement="right"><i class="fab fa-instagram"></i></a>
+        <a href="#"data-toggle="tooltip" title="Twitter" data-placement="right"><i class="fab fa-twitter"></i></a>
+        <a href="#"data-toggle="tooltip" title="Linkedin" data-placement="right"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <!-- social media share icon ends -->
+
+    <!-- about strt -->
+    <section id="about">
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <p class="text-uppercase title">preminum brand</p>
+                        <h2>ultimate transaction with zero fees</h2>
+                        <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis
+                            cupiditate tenetur exercitationem totam. Eos cupiditate repellendus cumque earum nemo
+                            consequuntur aspernatur, natus enim voluptatum.</p>
+                        <a href="#" class="btn main-btn px-4">learn more</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about ends -->
+
+    <!-- discover strt -->
+    <section id="discover">
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/2.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="discover-content">
+                        <p class="text-uppercase title">ultimate access</p>
+                        <h2>log in to your account at any time</h2>
+                        <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis
+                            cupiditate tenetur exercitationem totam. Eos cupiditate repellendus cumque earum nemo
+                            consequuntur aspernatur, natus enim voluptatum.</p>
+                        <a href="#" class="btn main-btn px-4">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- discover ends -->
+
+    <!-- service strt -->
+    <section id="service" class="py-5">
+        <h2 class="heading">our services</h2>
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                        <img src="img/1.png" alt="" class="card-img">
+                        <div class="card-subtitle font-weight-bold">reduce expenses</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                                reiciendis doloremque sequi voluptate enim eius, atque nisi blanditiis beatae deleniti
+                                corporis omnis eveniet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                        <img src="img/2.png" alt="" class="card-img">
+                        <div class="card-subtitle font-weight-bold">reduce expenses</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                                reiciendis doloremque sequi voluptate enim eius, atque nisi blanditiis beatae deleniti
+                                corporis omnis eveniet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                        <img src="img/3.png" alt="" class="card-img">
+                        <div class="card-subtitle font-weight-bold">reduce expenses</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                                reiciendis doloremque sequi voluptate enim eius, atque nisi blanditiis beatae deleniti
+                                corporis omnis eveniet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service ends -->
+
+    <!-- contact strt -->
+    <section id="contact">
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-content">
+                        <p class="text-uppercase title">ultimate access</p>
+                        <h2 class="font-weight-bolder">log in to your account at any time</h2>
+                        <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis
+                            cupiditate tenetur exercitationem totam. Eos cupiditate repellendus cumque earum nemo
+                            consequuntur aspernatur, natus enim voluptatum.</p>
+                        <a href="#" class="btn main-btn px-4">learn more</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact ends -->
+
+    <!-- footer strt -->
+    <footer id="footer" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 class="text-white">why choose us ?</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officia cumque vitae a laborum suscipit molestiae obcaecati accusamus. Minima, assumenda.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">quick links</h3>
+                    <a href="" class="nav-link">home</a>
+                    <a href="" class="nav-link">about</a>
+                    <a href="" class="nav-link">discover</a>
+                    <a href="" class="nav-link">service</a>
+                    <a href="" class="nav-link">contact</a>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">our branch</h3>
+                    <a href="" class="nav-link">USA</a>
+                    <a href="" class="nav-link">RUSSIA</a>
+                    <a href="" class="nav-link">INDIA</a>
+                    <a href="" class="nav-link">AUSTRALIA</a>
+                    <a href="" class="nav-link">AFRICA</a>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">get in touch</h3>
+                    <a href="#" class="nav-link"><i class="fas fa-envelope"></i> message</a>
+                    <a href="#"> <i class="fas fa-phone"></i> +91 134567895</a>
+                    <a href="#"> <i class="fas fa-phone"></i> +91 134567895</a>
+                    <a href="#"> <i class="fas fa-phone"></i> +91 134567895</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center border-top text-white py-2">
+                <div class="col-12 text-uppercase"> created by <a href="#" class="d-inline-block"> devang mali</a> All copyright reserved</div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
